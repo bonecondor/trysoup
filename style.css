@@ -54,6 +54,7 @@ nav .logo:hover {
 nav .links {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 nav .links a {
@@ -216,6 +217,14 @@ footer {
   text-align: center;
   color: #999;
   font-size: 14px;
+}
+
+footer .footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
 }
 
 footer a {
